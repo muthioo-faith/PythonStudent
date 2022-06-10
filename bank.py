@@ -48,13 +48,13 @@ class Account:
 
     def deposits_statements(self):
         for c in self.deposits:
-            print(c,end="/n")
+            print(c,end="\n")
 
  
 
     def withdrawals_statements(self):
         for a in self.withdrawals:
-            print(a,end="/n")
+            print(a,end="\n")
 
     def current_balance(self):
         return f"{self.balance}"
